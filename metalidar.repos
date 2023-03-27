@@ -1,0 +1,9 @@
+repositories:
+  Plugins/UDP-Unreal:
+    type: git
+    url: https://github.com/getnamo/UDP-Unreal.git
+    version: v2.1.0
+  Plugins/MetaLidar:
+    type: git
+    url: https://github.com/metabotics-ai/MetaLidar.git
+    version: main

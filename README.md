@@ -1,2 +1,2 @@
 # MetaLidarSampleUE5
-Sample project for testing the MetaLidar plugin
+Unreal Engine 5 sample project for testing 'MetaLidar' plugin.
