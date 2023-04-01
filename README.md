@@ -9,6 +9,8 @@ This sample project is tesed under following condition:
 - RAM 32GB
 - Unreal Engine 5.1.x
 
+> **Important Note**: Currently, this project is not able to run under loopback conditions, you need another PC or SBC for receiving sensor packets or visualizing point clouds.
+
 ## Installation
 First, you should install Unreal Engine 5. You can download pre-compiled UE5 for linux [here](https://www.unrealengine.com/en-US/linux). Set environment variable for UE5 root directory.
 ```
@@ -43,3 +45,13 @@ We provide the 'Demo' level for a quick start, and when you start the project, y
 The 'Demo' devel includes following components.
 - Velodyne VLP-16 3D LiDAR
 - Cube boxes with reflectivity 10, 100, 200
+
+By default, velodyne component has following configuration:
+
+![VelodyneConfiguration](Images/velodyne_component_default.png)
+
+You need to change the ***'Sensor IP'*** and ***'Destination IP'***. The default IP address for Velodyne LiDAR sensors is '192.168.1.201'. If you want to visualize the sensor packets in legacy software like 'VeloView', you should set the 'Sensor IP' value to '192.168.1.201'. 'Destination IP' means the IP address of the PC  that receives packets from the LiDAR sensor. The following image is an example configuration:
+
+![IP_Configure](Images/change_ip_value.png)
+
+Let's press the 'Play' button for starting LiDAR sensor simulation!
