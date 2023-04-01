@@ -5,7 +5,7 @@ if [ -z "${UE5_ROOT}" ]; then
 fi
 
 PROJECT_NAME="MetaLidarSampleUE5"
+UE5_BATCH=${UE5_ROOT}/Engine/Build/BatchFiles/Linux
+GENERATOR_COMMAND="${UE5_BATCH}/GenerateProjectFiles.sh"
 
-GENERATOR_COMMAND="${UE5_ROOT}/GenerateProjectFiles.sh"
-
-(exec "$GENERATOR_COMMAND" -project="${PWD}/$PROJECT_NAME.uproject" -game)
+(exec "$GENERATOR_COMMAND" -project="${PWD}/${PROJECT_NAME}.uproject" -game)
