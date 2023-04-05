@@ -1,6 +1,8 @@
 # MetaLidarSampleUE5
 Sample project for testing 'MetaLidar' plugin.
-
+  
+![Live_Demo](Images/demo_velodyne_live.gif)  
+  
 ## Prerequisite
 This sample project is tesed under following condition:
 - Ubutnu 22.04
