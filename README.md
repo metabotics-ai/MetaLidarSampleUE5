@@ -1,8 +1,8 @@
 # MetaLidarSampleUE5
 Sample project for testing 'MetaLidar' plugin.
-  
-![Live_Demo](Images/demo_velodyne_live.gif)  
-  
+
+![Live_Demo](Images/demo_velodyne_live.gif)
+
 ## Prerequisite
 This sample project is tesed under following condition:
 - Ubutnu 22.04
@@ -44,15 +44,19 @@ We provide the 'Demo' level for a quick start, and when you start the project, y
 
 ![Demo Level](Images/demo_level.png)
 
-The 'Demo' devel includes following components.
+The 'Demo' level includes following components.
 - Velodyne VLP-16 3D LiDAR
 - Cube boxes with reflectivity 10, 100, 200
 
-By default, velodyne component has following configuration:
+You can change sensor settings in the Lidar component.
 
 ![VelodyneConfiguration](Images/velodyne_component_default.png)
 
-You need to change the ***'Sensor IP'*** and ***'Destination IP'***. The default IP address for Velodyne LiDAR sensors is '192.168.1.201'. If you want to visualize the sensor packets in legacy software like 'VeloView', you should set the 'Sensor IP' value to '192.168.1.201'. 'Destination IP' means the IP address of the PC  that receives packets from the LiDAR sensor. The following image is an example configuration:
+The ***'Sensor IP'*** and ***'Destination IP'*** is the only thing you must change to see the plugin work.
+- Sensor IP : The default IP address for Velodyne LiDAR sensors is '192.168.1.201'. If you want to visualize the sensor packets in legacy software like 'VeloView', you should set the 'Sensor IP' value to '192.168.1.201'.
+- Destination IP : The IP address of the host PC or other device which receives packets from the LiDAR sensor.
+
+The following image is an example configuration:
 
 ![IP_Configure](Images/change_ip_value.png)
 
