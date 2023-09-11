@@ -8,8 +8,7 @@ public class MetaLidarSampleUE5Target : TargetRules
 	public MetaLidarSampleUE5Target( TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
-		DefaultBuildSettings = BuildSettingsVersion.V2;
-		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_1;
+		IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
 		ExtraModuleNames.Add("MetaLidarSampleUE5");
 	}
 }
