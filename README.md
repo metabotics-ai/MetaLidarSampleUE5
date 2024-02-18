@@ -9,9 +9,7 @@ This sample project is tesed under following condition:
 - Intel i9-12900K
 - NVIDIA RTX 3070
 - RAM 32GB
-- Unreal Engine 5.1.x ~ 5.3.x
-
-> **Important Note**: Currently, this project is not able to run under loopback conditions, you need another PC or SBC for receiving sensor packets or visualizing point clouds.
+- Unreal Engine 5.3(This repo aims to track latest release version of the engine)
 
 ## Installation
 First, you should install Unreal Engine 5. You can download pre-compiled UE5 for linux [here](https://www.unrealengine.com/en-US/linux). Set environment variable for UE5 root directory.

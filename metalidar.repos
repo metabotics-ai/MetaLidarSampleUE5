@@ -6,4 +6,4 @@ repositories:
   Plugins/MetaLidar:
     type: git
     url: https://github.com/metabotics-ai/MetaLidar.git
-    version: main
+    version: ue_5.3
