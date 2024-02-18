@@ -11,8 +11,6 @@ This sample project is tesed under following condition:
 - RAM 32GB
 - Unreal Engine 5.3(This repo aims to track latest release version of the engine)
 
-> **Important Note**: Currently, this project is not able to run under loopback conditions, you need another PC or SBC for receiving sensor packets or visualizing point clouds.
-
 ## Installation
 First, you should install Unreal Engine 5. You can download pre-compiled UE5 for linux [here](https://www.unrealengine.com/en-US/linux). Set environment variable for UE5 root directory.
 ```
